@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash:*)",
+      "Bash(docker info:*)",
+      "Bash(unshare:*)",
+      "Bash(dockerd --version)",
+      "Read(//run/**)",
+      "Read(//proc/1/**)"
+    ]
+  }
+}
